@@ -9,3 +9,11 @@ func (i Int8) LtZero() bool {
 func (i Int8) Negate() Abser {
 	return Int8(i * -1)
 }
+
+func (i Int8) IsEven() bool {
+	return i%2 == 0
+}
+
+func (i Int8) IsOdd() bool {
+	return i%2 != 0
+}
